@@ -1,0 +1,83 @@
+body{
+	height:4000px;
+}
+
+.arrow{
+	height:20px;
+	width:20px;
+	background-color: #00f;
+	position:absolute;
+	margin:20px auto;
+	animation: colorin 0.8s infinite ease-in-out ;	
+}
+
+@keyframes coloring{
+	0%,100%{
+		top:60px;
+	}
+	50%{
+		top:100px;
+	}
+}
+
+.any{
+	background-color:#333;
+	color:#FFF;
+	margin:20px auto;
+	position: absolute ;
+	width:1100px;
+	height:600px;
+}
+
+
+.n{
+	background-color:#333;
+	color:#FFF
+}
+
+
+
+.father{
+	background-color:#333;
+	padding-top:25px;
+	margin:25px auto;
+	color:#FFF;
+	height:500px;
+}
+
+
+.father .front > i {
+	color:#FFF;
+	width:30px;
+	height:22px;
+	border-radius:50%;
+	background-color:aqua;
+	text-align:center;
+	padding-top:9px;
+	position: absolute;
+	left:35px;
+	top:570px;
+	transition: all .5s ease-in-out;
+	z-index: 2;
+	backface-visibility:hidden;
+	cursor: pointer;
+}
+
+.father .back > i {
+	color:#FFF;
+	width:30px;
+	height: 22px;
+	border-radius:50%;
+	background-color:#4267B2;
+	text-align:center;
+	padding-top:9px;
+	position: absolute;
+	left:35px;
+	top:570px;	
+	transition: all .5s ease-in-out;
+	z-index: 1;
+
+}
+.father .front > i:hover{
+	transform: rotateY(180deg);
+}

@@ -1,0 +1,47 @@
+body{
+    background-color:#FFF;
+    color:#000;
+}
+
+.front{
+    background-color:#f00;
+    color:#fff;
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+    margin:30px auto;
+    position: absolute;
+    left:60px;
+    top:90px;
+    text-align: center;
+    padding:30px ;
+    z-index: 2;
+    cursor: pointer;
+    transition:all .65s ease;
+    background-image:url('../images//ipad.jpg')
+}
+.back {
+    background-color:#222;
+    color:#fff;
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+    margin:30px auto;
+    position: absolute;
+    left:60px;
+    top:90px;
+    text-align: center;
+    padding:30px ;
+    z-index: 1;
+    cursor: pointer;
+    transition:all .65s ease;
+        
+}
+.back h4{
+    position: relative;
+    top:450px;
+}
+.front:hover{
+    top:0px; 
+}
+
